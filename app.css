@@ -1,0 +1,46 @@
+.choose{
+    display:flex;
+   
+}
+.to,.from{
+    margin:10px;
+}
+
+.choose{
+    display: flex;
+
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background-image: url("https://images.unsplash.com/photo-1580519542036-c47de6196ba5?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;     /* Makes it cover the whole screen */
+  background-position: center; /* Keeps it centered */
+  background-repeat: no-repeat; /* Prevents repeating */
+
+  /* Add fade effect using overlay color */
+  position: relative;
+}
+.container{
+    
+    padding: 2rem;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 0.2); /* semi-transparent white */
+  backdrop-filter: blur(10px); /* Optional: glass effect */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+.convert button{
+    border-radius: 2rem;
+    cursor: pointer;
+    
+}
+.convert button:hover{
+   background-color: white;
+   color: blue;
+    
+}
+
